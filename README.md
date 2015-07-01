@@ -1,5 +1,6 @@
-# grwlrplate
-Gulp x React x Webpack x BrowserSync Boilerplate
+# bot_vis
+Uses Marcus Bernales' grwlrplate boilerplate to create bot_vis project. First Draft
+
 
 ## What's included:
 - React
