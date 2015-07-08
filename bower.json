@@ -1,0 +1,23 @@
+{
+  "name": "bot_vis",
+  "version": "0.0.0",
+  "homepage": "https://github.com/namini67/bot_vis",
+  "authors": [
+    "Nedda Amini <Nedda.Amini@gmail.com>"
+  ],
+  "main": "gulpfile.js",
+  "moduleType": [
+    "es6"
+  ],
+  "license": "none?",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "paper": "~0.9.23"
+  }
+}
