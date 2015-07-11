@@ -1,6 +1,5 @@
 var 
   gulp = require('gulp'),
-  bower = require('bower'),
   sass = require('gulp-sass'),
   cached = require('gulp-cached'),
   autoprefixer = require('gulp-autoprefixer'),
@@ -17,13 +16,6 @@ var jsPath = "lib/js/**/*.js";
 var jsOutPath = "public/assets/js";
 
 gulp.task('webpack-hot', webpackServer); 
-
-gulp.task('bower', function(cb){
-    bower.commands.install([], {save: true}, {})
-      .on('end', function(installed){
-        cb();
-      });
-  });
 
 gulp.task('browsersync', function() {
   browserSync.init({
