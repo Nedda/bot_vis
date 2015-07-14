@@ -10,7 +10,7 @@ var
   webpack = require('gulp-webpack'),
   webpackServer = require('./webpack-server');
 
-var cssPath = "lib/css/**/*.scss";
+var cssPath = "lib/css/*.scss";
 var cssOutPath = "public/assets/css";
 var jsPath = "lib/js/**/*.js";
 var jsOutPath = "public/assets/js";
