@@ -7,7 +7,7 @@ module.exports = {
   entry: ['webpack/hot/dev-server',
     './lib/app.js'],
   output: {
-    path: __dirname,
+    path: __dirname + '/bin',
     filename: 'bundle.js',
     publicPath: '/bin'
   },
