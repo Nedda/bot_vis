@@ -1,5 +1,4 @@
 var path = require('path');
-var vis = require('vis');
 var webpack = require('webpack');
 var plugins = new webpack.HotModuleReplacementPlugin();
 
