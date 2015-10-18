@@ -1,6 +1,5 @@
 var path = require('path');
 var webpack = require('webpack');
-var plugins = new webpack.HotModuleReplacementPlugin();
 
 module.exports = {
   entry: ['webpack/hot/dev-server',
@@ -15,5 +14,6 @@ module.exports = {
       { test: path.join(__dirname, 'lib'),
         loader: 'babel-loader' }
     ]
-  }
+  },
+  devtool: 'sourcemap' 
 };
