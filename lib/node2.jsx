@@ -6,6 +6,7 @@ var ComponentNode = React.createClass({
   render: function(){
     return(
       <div>
+        <div>bot vis</div>
         <div>hello world</div>
       </div>
     );
@@ -13,4 +14,3 @@ var ComponentNode = React.createClass({
 });
 
 module.exports = ComponentNode;
-ReactDOM.render(<ComponentNode></ComponentNode> , document.getElementById('app'));

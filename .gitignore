@@ -1,5 +1,4 @@
 .DS_Store
-/bin/bundle.js
 npm-debug.log
 node_modules
 *~
@@ -7,3 +6,5 @@ node_modules
 *.swo
 *.min
 *.map
+*.bundle.js
+*.bundle.js.map
