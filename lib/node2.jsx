@@ -12,8 +12,10 @@ var ComponentNode = React.createClass({
     return(
       <div>
         <div>bot vis</div>
-        <div>hello world</div>
+        <div>
         {d3Funcs.draw()}
+        </div>
+        <div>hello world</div>
       </div>
     );
   }
